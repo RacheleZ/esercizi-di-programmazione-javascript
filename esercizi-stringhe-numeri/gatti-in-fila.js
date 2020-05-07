@@ -17,3 +17,12 @@
 
   http://www.imparareaprogrammare.it
 */
+var cats = 50;
+var catsPerLine = 7;
+var lines = cats / catsPerLine;
+var remainder = cats % catsPerLine;
+console.log(lines);
+var roundedLines = Math.round(lines);
+console.log(roundedLines);
+console.log(remainder);
+
